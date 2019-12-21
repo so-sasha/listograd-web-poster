@@ -11,6 +11,8 @@ body {
   background: linear-gradient(#f39669, #262d5d);
   color: white;
   margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 .content {
@@ -62,6 +64,14 @@ h3 {
   align-items: center;
   text-align: center;
   flex-direction: column;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  transform-origin: bottom;
+}
+
+.bounce {
+  animation-name: bounce;
+  animation-timing-function: ease;
 }
 
 .party {
@@ -136,10 +146,10 @@ h3 {
 }
 
 .glowworm_small:hover {
--webkit-animation: swing 0.6s ease;
+  -webkit-animation: swing 0.6s ease;
   animation: swing 0.6s ease;
-    -webkit-animation-iteration-count: 1;
-    animation-iteration-count: 1;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
 }
 
 .glowworm {
@@ -243,6 +253,15 @@ h3 {
   position: sticky;
   bottom: 0;
   min-height: 2em;
+}
+
+.logo {
+  width: 206px;
+  height: 85px;
+  padding-top: 298px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 
@@ -396,9 +415,27 @@ h3 {
  50% { color: #fff; text-shadow: 0 -1px #DDCD4A, 0 0 5px #DDCD4A, 0 0 8px #DDCD4A; }
 }
 
+/*@keyframes bounce {
+  0%   { transform: translateY(0); }
+  50%  { transform: translateY(-100px); }
+  100% { transform: translateY(0); }
+}*/
+
 @media (max-width: 768px) {
   body {
-    background: white;
-    font-size: 100px;
+
   }
+
+  h1 {
+    font-size: 28px;
+  }
+
+  h2 {
+    font-size: 25px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
 }
