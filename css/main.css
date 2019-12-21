@@ -7,12 +7,16 @@ html {
 }
 
 body {
-  /*background: linear-gradient(#f39669, #262d5d);*/
   font-family: 'Comfortaa';
-  background-image: url("../img/scenery.svg");
-  background-repeat: repeat-y;
+  background: linear-gradient(#f39669, #262d5d);
   color: white;
   margin: 0;
+}
+
+.content {
+  background-image: url("../img/tree_left.svg");
+  background-repeat: repeat-y;
+  background-position: left;
 }
 
 /*.scenery {
@@ -63,8 +67,12 @@ h3 {
 .party {
   padding-top: 642px;
   font-size: 48px;
-  -webkit-animation: blink1 3s linear infinite;
-  animation: blink1 3s linear infinite;
+  /*-webkit-animation: blink1 3s linear infinite;
+  animation: blink1 3s linear infinite;*/
+  color: rgb(245,245,245);
+  text-shadow: 0 -1px rgba(0,0,0,.1);
+  -webkit-animation: pulsate 1.2s linear infinite;
+  animation: pulsate 1.2s linear infinite;
 }
 
 .ogonek {
@@ -181,6 +189,36 @@ h3 {
 .glowworm_10 {
   left: 527px;
   top: 1631px;
+}
+
+.glowworm_11 {
+  left: 318px;
+  top: 2038px;
+}
+
+.glowworm_12 {
+  left: 685px;
+  top: 2121px;
+}
+
+.glowworm_13 {
+  left: 335px;
+  top: 2327px;
+}
+
+.glowworm_14 {
+  left: 908px;
+  top: 2367px;
+}
+
+.glowworm_15 {
+  left: 300px;
+  top: 2824px;
+}
+
+.glowworm_16 {
+  left: 713px;
+  top: 2956px;
 }
 
 .cricket {
@@ -340,7 +378,7 @@ h3 {
   }
 }
 
-@-webkit-keyframes blink1 {
+/*@-webkit-keyframes blink1 {
   0% { color: #ffffff; }
   50% { color: rgba(163, 116, 88, 0); }
   100% { color: #DDCD4A; }
@@ -349,6 +387,13 @@ h3 {
   0% { color: #ffffff); }
   50% { color: rgba(163, 116, 88, 0); }
   100% { color: #DDCD4A; }
+}*/
+
+@-webkit-keyframes pulsate {
+ 50% { color: #fff; text-shadow: 0 -1px #DDCD4A, 0 0 5px #DDCD4A, 0 0 8px #DDCD4A; }
+}
+@keyframes pulsate {
+ 50% { color: #fff; text-shadow: 0 -1px #DDCD4A, 0 0 5px #DDCD4A, 0 0 8px #DDCD4A; }
 }
 
 @media (max-width: 768px) {
