@@ -7,16 +7,18 @@ html {
 }
 
 body {
-  background: linear-gradient(#f39669, #262d5d);
+  /*background: linear-gradient(#f39669, #262d5d);*/
   font-family: 'Comfortaa';
+  background-image: url("../img/scenery.svg");
+  background-repeat: repeat-y;
   color: white;
   margin: 0;
 }
 
-.trees {
+/*.scenery {
   position: absolute;
   z-index: -1;
-}
+}*/
 
 h1 {
   font-size: 55px;
@@ -59,11 +61,18 @@ h3 {
 }
 
 .party {
-  padding-top: 700px;
+  padding-top: 642px;
   font-size: 48px;
+  -webkit-animation: blink1 3s linear infinite;
+  animation: blink1 3s linear infinite;
 }
 
 .ogonek {
+  /*opacity: 1;*/
+}
+
+.ogonek:hover {
+  /*opacity: 0;*/
 }
 
 .third_header {
@@ -92,27 +101,9 @@ h3 {
   flex-direction: column;
 }
 
-@keyframes slidein {
-  from {
-    margin-left: 100%;
-    width: 300%;
-  }
-
-  to {
-    margin-left: 0%;
-    width: 100%;
-  }
-
-  75% {
-    font-size: 300%;
-    margin-left: 25%;
-    width: 150%;
-  }
-}
-
 .fireflies {
   border-radius: 50%;
-  filter: blur(20px);
+  filter: blur(15px);
   background: #DDCD4A;
   position: absolute;
 }
@@ -153,8 +144,43 @@ h3 {
 }
 
 .glowworm_3 {
+  left: 318px;
+  top: 549px;
+}
+
+.glowworm_4 {
+  left: 608px;
+  top: 653px;
+}
+
+.glowworm_5 {
   left: 964px;
   top: 520px;
+}
+
+.glowworm_6 {
+  left: 570px;
+  top: 972px;
+}
+
+.glowworm_7 {
+  left: 801px;
+  top: 836px;
+}
+
+.glowworm_8 {
+  left: 613px;
+  top: 1420px;
+}
+
+.glowworm_9 {
+  left: 846px;
+  top: 1561px;
+}
+
+.glowworm_10 {
+  left: 527px;
+  top: 1631px;
 }
 
 .cricket {
@@ -179,6 +205,25 @@ h3 {
   position: sticky;
   bottom: 0;
   min-height: 2em;
+}
+
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+
+  75% {
+    font-size: 300%;
+    margin-left: 25%;
+    width: 150%;
+  }
 }
 
 75% {
@@ -293,6 +338,17 @@ h3 {
     -webkit-transform: translateX(0);
     transform: translateX(0);
   }
+}
+
+@-webkit-keyframes blink1 {
+  0% { color: #ffffff; }
+  50% { color: rgba(163, 116, 88, 0); }
+  100% { color: #DDCD4A; }
+}
+@keyframes blink1 {
+  0% { color: #ffffff); }
+  50% { color: rgba(163, 116, 88, 0); }
+  100% { color: #DDCD4A; }
 }
 
 @media (max-width: 768px) {
