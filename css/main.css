@@ -10,11 +10,24 @@ body {
   background: linear-gradient(#f39669, #262d5d);
   font-family: 'Comfortaa';
   color: white;
+  margin: 0;
 }
 
-.trees_grass {
+.trees {
   position: absolute;
   z-index: -1;
+}
+
+h1 {
+  font-size: 55px;
+}
+
+h2 {
+  font-size: 48px;
+}
+
+h3 {
+  font-size: 28px;
 }
 
 .first_header {
@@ -30,12 +43,10 @@ body {
   padding-top: 269px;
   z-index: 1;
   margin: auto;
-  font-size: 55px;
 }
 
 .complete_solitude {
   font-family: 'Montserrat';
-  font-size: 28px;
   z-index: 1;
 }
 
@@ -53,7 +64,32 @@ body {
 }
 
 .ogonek {
+}
 
+.third_header {
+  font-family: 'Montserrat';
+  padding-top: 714px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.time {
+}
+
+.place {
+}
+
+.program {
+  font-family: 'Montserrat';
+  padding-top: 714px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
 }
 
 @keyframes slidein {
@@ -143,26 +179,6 @@ body {
   position: sticky;
   bottom: 0;
   min-height: 2em;
-}
-
-.time {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  color: white;
-  font-size: 35px;
-  height: 900px;
-  align-items: center;
-}
-
-h3 {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  color: white;
-  font-size: 25px;
-  height: 1200px;
-  align-items: center;
 }
 
 75% {
