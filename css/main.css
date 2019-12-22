@@ -259,9 +259,12 @@ h3 {
   width: 206px;
   height: 85px;
   padding-top: 298px;
-  display: flex;
+  position: relative;
+  left: 583px;
+  /*top: 2840px;*/
+  /*display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center;*/
 }
 
 
@@ -436,6 +439,17 @@ h3 {
 
   h3 {
     font-size: 15px;
+  }
+
+  .logo {
+    width: 113;
+    height: 47px;
+
+  }
+
+  .content {
+    background-size: 95px 1220px;
+    background-repeat: repeat-y;
   }
 
 }
