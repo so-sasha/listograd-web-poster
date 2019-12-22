@@ -1,0 +1,86 @@
+@import "reset.css";
+@import url('https://fonts.googleapis.com/css?family=Comfortaa&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Comfortaa';
+  background: linear-gradient(#f39669, #262d5d);
+  color: white;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.content {
+  background-size: 162px 2048px;
+  background-image: url("../img/tree_left.svg");
+  background-repeat: repeat-y;
+  background-position: left;
+}
+
+/*.scenery {
+  position: absolute;
+  z-index: -1;
+}*/
+
+h1 {
+  font-size: 25px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+h3 {
+  font-size: 15px;
+}
+
+.first_header {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+.new_format {
+  padding-top: 232px;
+  z-index: 1;
+  margin: auto;
+}
+
+.complete_solitude {
+  font-family: 'Montserrat';
+  z-index: 1;
+}
+
+.second_header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  transform-origin: bottom;
+}
+
+.bounce {
+  animation-name: bounce;
+  animation-timing-function: ease;
+}
+
+.party {
+  padding-top: 553px;
+  /*-webkit-animation: blink1 3s linear infinite;
+  animation: blink1 3s linear infinite;*/
+  color: rgb(245,245,245);
+  text-shadow: 0 -1px rgba(0,0,0,.1);
+  -webkit-animation: pulsate 1.2s linear infinite;
+  animation: pulsate 1.2s linear infinite;
+}
