@@ -123,6 +123,9 @@ h3 {
   filter: blur(15px);
   background: #DDCD4A;
   position: absolute;
+  -webkit-animation: right 1s infinite ease-in-out;
+   -moz-animation: right 1s infinite ease-in-out;
+   animation: right 1s infinite ease-in-out;
 }
 
 .glowworm_big {
@@ -440,23 +443,102 @@ footer {
   100% { transform: translateY(0); }
 }*/
 
+@-webkit-keyframes right {
+    0% {
+        -webkit-transform: translate(-15px);
+    }
+    50% {
+        -webkit-transform: translate(15px);
+    }
+    100% {
+        -webkit-transform: translate(-15px);
+    }
+}
+
+@-webkit-keyframes left {
+    0% {
+        -webkit-transform: translate(15px);
+    }
+    50% {
+        -webkit-transform: translate(-15px);
+    }
+    100% {
+        -webkit-transform: translate(15px);
+    }
+}
+
+@-moz-keyframes right {
+    0% {
+        -moz-transform: translate(-15px);
+    }
+    50% {
+        -moz-transform: translate(15px);
+    }
+    100% {
+        -moz-transform: translate(-15px);
+    }
+}
+
+@-moz-keyframes left {
+    0% {
+        -moz-transform: translate(15px);
+    }
+    50% {
+        -moz-transform: translate(-15px);
+    }
+    100% {
+        -moz-transform: translate(15px);
+    }
+}
+
+@keyframes right {
+    0% {
+        transform: translate(-15px);
+    }
+    50% {
+        transform: translate(15px);
+    }
+    100% {
+        transform: translate(-15px);
+    }
+}
+
+@keyframes left {
+    0% {
+        transform: translate(15px);
+    }
+    50% {
+        transform: translate(-15px);
+    }
+    100% {
+        transform: translate(15px);
+    }
+}
+
 @media (max-width: 768px) {
 
   h1 {
-    font-size: 25px;
+    font-size: 45px;
   }
 
   h2 {
-    font-size: 20px;
+    font-size: 32px;
   }
 
   h3 {
-    font-size: 15px;
+    font-size: 25px;
+  }
+
+  .first_header {
+    white-space: pre-line;
   }
 
   .cricket {
     width: 124px;
     height: 50px;
+    position: absolute;
+    top: 5px;
+    left: 25px;
   }
 
   .cricket_2 {
@@ -571,7 +653,155 @@ footer {
     background-position: inherit;
   }
 
-  footer {
+  .footer {
+    width: 598px;
+    height: 285px;
+    position: absolute;
+    left: 163px;
+    top: 2787px;
+  }
+
+}
+
+@media (max-width: 375px) {
+
+  h1 {
+    font-size: 28px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  h3 {
+    font-size: 15px;
+  }
+
+  .first_header {
+    white-space: pre-line;
+  }
+
+  .cricket {
+    width: 99px;
+    height: 40px;
+    position: absolute;
+    top: 5px;
+    left: 25px;
+  }
+
+  .cricket_2 {
+    width: 133px;
+    height: 54px;
+  }
+
+  .glowworm_big {
+    opacity: 1;
+    width: 133px;
+    height: 133px;
+  }
+
+  .glowworm_small {
+    opacity: 1;
+    width: 60px;
+    height: 60px;
+  }
+
+  .glowworm {
+    left: 300px;
+  }
+
+  .glowworm_2 {
+    left: 776px;
+    top: 30px;
+  }
+
+  .glowworm_3 {
+    left: 218px;
+    top: 449px;
+  }
+
+  .glowworm_4 {
+    left: 508px;
+    top: 553px;
+  }
+
+  .glowworm_5 {
+    left: 864px;
+    top: 420px;
+  }
+
+  .glowworm_6 {
+    left: 470px;
+    top: 872px;
+  }
+
+  .glowworm_7 {
+    left: 601px;
+    top: 736px;
+  }
+
+  .glowworm_8 {
+    left: 513px;
+    top: 1320px;
+  }
+
+  .glowworm_9 {
+    left: 746px;
+    top: 1461px;
+  }
+
+  .glowworm_10 {
+    left: 427px;
+    top: 1531px;
+  }
+
+  .glowworm_11 {
+    left: 218px;
+    top: 1938px;
+  }
+
+  .glowworm_12 {
+    left: 785px;
+    top: 2021px;
+  }
+
+  .glowworm_13 {
+    left: 235px;
+    top: 2227px;
+  }
+
+  .glowworm_14 {
+    left: 808px;
+    top: 2267px;
+  }
+
+  .glowworm_15 {
+    left: 200px;
+    top: 2724px;
+  }
+
+  .glowworm_16 {
+    left: 613px;
+    top: 2856px;
+  }
+
+  .ogonek {
+    width: 231px;
+    height: 58px;
+  }
+
+  .logo {
+    width: 113px;
+    height: 47px;
+
+  }
+
+  .content {
+    background-size: 95px 1220px;
+    background-position: inherit;
+  }
+
+  .footer {
     width: 598px;
     height: 285px;
     position: absolute;
