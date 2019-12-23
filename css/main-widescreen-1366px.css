@@ -8,7 +8,7 @@ html {
 
 body {
   font-family: 'Comfortaa';
-  background: linear-gradient(#f39669, #262d5d);
+  background: linear-gradient(#f39669, #232d5d);
   color: white;
   margin: 0;
   overflow-x: hidden;
@@ -29,15 +29,7 @@ body {
   overflow: hidden;
   position: relative;
   width: 100%;
-  /* position: absolute;
-  right: 0;
-  width: 186.73px; */
 }
-
-/*.scenery {
-  position: absolute;
-  z-index: -1;
-}*/
 
 h1 {
   font-size: 55px;
@@ -89,6 +81,7 @@ h3 {
   animation-iteration-count: infinite;
   transform-origin: bottom;
   line-height: 100px;
+  padding-top: 500px;
 }
 
 .bounce {
@@ -97,9 +90,6 @@ h3 {
 }
 
 .party {
-  /* padding-top: 642px; */
-  /*-webkit-animation: blink1 3s linear infinite;
-  animation: blink1 3s linear infinite;*/
   color: rgb(245,245,245);
   text-shadow: 0 -1px rgba(0,0,0,.1);
   -webkit-animation: pulsate 1.2s linear infinite;
@@ -116,7 +106,7 @@ h3 {
 
 .third_header {
   font-family: 'Montserrat';
-  padding-top: 714px;
+  padding-top: 500px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -150,6 +140,7 @@ h3 {
 
 .program_2 {
   padding-left: 50px;
+  /* margin-top: -350px; */
   font-family: 'Montserrat';
   display: flex;
   justify-content: flex-end;
@@ -302,16 +293,7 @@ h3 {
   width: 206px;
   height: 85px;
   padding-top: 298px;
-  padding-bottom: 200px;
-  position: relative;
-  /*top: 2840px;*/
-  /*display: flex;
-  justify-content: center;
-  align-items: center;*/
-}
-
-.program {
-
+  padding-left: 700px;
 }
 
 .footer {
@@ -902,11 +884,6 @@ h3 {
     padding-top: 100px;
     padding-left: 200px;
   }
-
-  /* .content {
-    background-size: 95px 1220px;
-    background-position-x: -18px;
-  } */
 
   .footer {
     width: 598px;
