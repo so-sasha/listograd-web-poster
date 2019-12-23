@@ -564,7 +564,7 @@ h3 {
   }
 
   .content {
-    background-position-y: -18px;
+    background-position-y: -1px;
     background-repeat: no-repeat;
   }
 
@@ -753,8 +753,10 @@ h3 {
   }
 
   h3 {
-    font-size: 15px;
+    font-size: 12px;
   }
+
+
 
   .first_header {
     padding-left: 75px;
@@ -762,12 +764,12 @@ h3 {
   }
 
   .new_format {
-    padding-top: 200px;
+    padding-top: 100px;
   }
 
   .second_header {
     padding-left: 65px;
-    padding-top: 200px;
+    padding-top: 100px;
   }
 
   .ogonek {
@@ -780,11 +782,18 @@ h3 {
   }
 
   .third_header {
+    padding-top: 150px;
     padding-left: 75px;
   }
 
+  .place {
+    margin-top: -30px;
+  }
+
   .program {
-    padding-top: 200px;
+    padding-left: 50px;
+    padding-top: 50px;
+    height: 300px;
   }
 
   .cricket {
@@ -891,7 +900,8 @@ h3 {
   .logo {
     width: 113px;
     height: 47px;
-    padding-top: 200px;
+    padding-top: 100px;
+    padding-left: 200px;
   }
 
   /* .content {
@@ -902,9 +912,5 @@ h3 {
   .footer {
     width: 598px;
     height: 285px;
-    position: absolute;
-    left: 163px;
-    top: 2787px;
-  }
 
 }
