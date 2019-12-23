@@ -1,9 +1,6 @@
 @import "reset.css";
-@import "mediumscreen-768px.css";
-@import "smallscreen-375px.css";
 @import url('https://fonts.googleapis.com/css?family=Comfortaa&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300&display=swap');
-
 html {
   scroll-behavior: smooth;
 }
@@ -556,3 +553,6 @@ h3 {
         transform: translate(15px);
     }
 }
+
+@import "mediumscreen-768px.css";
+@import "smallscreen-375px.css";
