@@ -589,10 +589,12 @@ h3 {
   }
 
   .first_header {
+    padding-left: 80px;
     line-height: 59px;
   }
 
   .second_header {
+    padding-left: 80px;
     padding-top: 436px;
   }
 
@@ -617,6 +619,11 @@ h3 {
     padding-left: 100px;
   }
 
+  .glowworm_small {
+    width: 54px;
+    height: 54px;
+  }
+
   .cricket {
     width: 124px;
     height: 50px;
@@ -636,8 +643,8 @@ h3 {
 
   .glowworm_small {
     opacity: 1;
-    width: 60px;
-    height: 60px;
+    width: 80px;
+    height: 80px;
   }
 
   .glowworm {
@@ -650,13 +657,13 @@ h3 {
   }
 
   .glowworm_3 {
-    left: 218px;
-    top: 449px;
+    left: 278px;
+    top: 49px;
   }
 
   .glowworm_4 {
     left: 508px;
-    top: 553px;
+    top: 503px;
   }
 
   .glowworm_5 {
@@ -665,8 +672,8 @@ h3 {
   }
 
   .glowworm_6 {
-    left: 470px;
-    top: 872px;
+    left: 270px;
+    top: 672px;
   }
 
   .glowworm_7 {
@@ -676,12 +683,12 @@ h3 {
 
   .glowworm_8 {
     left: 513px;
-    top: 1320px;
+    top: 1120px;
   }
 
   .glowworm_9 {
-    left: 746px;
-    top: 1461px;
+    left: 386px;
+    top: 1550px;
   }
 
   .glowworm_10 {
@@ -690,8 +697,8 @@ h3 {
   }
 
   .glowworm_11 {
-    left: 218px;
-    top: 1938px;
+    left: 248px;
+    top: 1960px;
   }
 
   .glowworm_12 {
@@ -720,8 +727,8 @@ h3 {
   }
 
   .ogonek {
-    width: 231px;
-    height: 58px;
+    width: 395px;
+    height: 86px;
   }
 
   .logo {
@@ -730,14 +737,6 @@ h3 {
     position: absolute;
     padding-left: 350px;
   }
-
-  /* .footer {
-    width: 598px;
-    height: 285px;
-    position: absolute;
-    left: 163px;
-    top: 2787px;
-  } */
 
 }
 
@@ -829,23 +828,23 @@ h3 {
   }
 
   .glowworm_3 {
-    left: 264px;
-    top: 80px;
+    left: 170px;
+    top: 30px;
   }
 
   .glowworm_4 {
-    left: 245px;
-    top: 425px;
+    left: 205px;
+    top: 485px;
   }
 
   .glowworm_5 {
-    left: 120px;
-    top: 320px;
+    left: 260px;
+    top: 240px;
   }
 
   .glowworm_6 {
-    left: 270px;
-    top: 672px;
+    left: 170px;
+    top: 702px;
   }
 
   .glowworm_7 {
@@ -854,7 +853,7 @@ h3 {
   }
 
   .glowworm_8 {
-    left: 313px;
+    left: 213px;
     top: 1120px;
   }
 
@@ -912,5 +911,5 @@ h3 {
   .footer {
     width: 598px;
     height: 285px;
-
+    margin-bottom: -10px;
 }
