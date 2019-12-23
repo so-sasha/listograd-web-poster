@@ -26,7 +26,7 @@ body {
 .tree_right {
   background: url("../img/tree_right.svg") repeat-y;
   background-position: right;
-  overflow-x: hidden;
+  overflow: hidden;
   position: relative;
   width: 100%;
   /* position: absolute;
@@ -304,7 +304,6 @@ h3 {
   padding-top: 298px;
   padding-bottom: 200px;
   position: relative;
-  left: 583px;
   /*top: 2840px;*/
   /*display: flex;
   justify-content: center;
@@ -564,9 +563,10 @@ h3 {
     background: none;
   }
 
-  /* .content {
-    background-size: 152px 3072px;
-  } */
+  .content {
+    background-position-y: -18px;
+    background-repeat: no-repeat;
+  }
 
   h1 {
     font-size: 48px;
@@ -580,8 +580,42 @@ h3 {
     font-size: 25px;
   }
 
+  .header-title {
+    min-height: 0;
+  }
+
+  .new_format {
+    padding-top: 232px;
+  }
+
   .first_header {
-    white-space: pre-line;
+    line-height: 59px;
+  }
+
+  .second_header {
+    padding-top: 436px;
+  }
+
+  .complete_solitude {
+    padding-top: 0;
+  }
+
+  .party {
+    padding-top: 0;
+  }
+
+
+  .third_header {
+    padding-top: 232px;
+    /* position: absolute;
+    left: 195px;
+    top: 500px; */
+  }
+
+  .program {
+    /* position: absolute;
+    left: 312px;
+    top: 500px; */
   }
 
   .cricket {
@@ -692,18 +726,18 @@ h3 {
   }
 
   .logo {
-    width: 113px;
-    height: 47px;
-
+    width: 206px;
+    height: 85px;
+    position: absolute;
   }
 
-  .footer {
+  /* .footer {
     width: 598px;
     height: 285px;
     position: absolute;
     left: 163px;
     top: 2787px;
-  }
+  } */
 
 }
 
@@ -723,6 +757,10 @@ h3 {
   }
 
   .first_header {
+  }
+
+  .third_header {
+    position: absolute;
   }
 
   .cricket {
