@@ -1,4 +1,6 @@
 @import "reset.css";
+@import "mediumscreen-768px.css";
+@import "smallscreen-375px.css";
 @import url('https://fonts.googleapis.com/css?family=Comfortaa&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300&display=swap');
 
@@ -18,6 +20,15 @@ body {
 
 .content {
   background: url("../img/tree_left.svg") repeat-y;
+  overflow-x: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.tree_right {
+  position: absolute;
+  right: 0;
+  width: 186.73px;
 }
 
 /*.scenery {
@@ -38,7 +49,6 @@ h3 {
 }
 
 .header-title {
-  border: 1px solid red;
   min-height: 600px;
   overflow: hidden;
   position: relative;
@@ -51,6 +61,7 @@ h3 {
   align-items: center;
   animation-duration: 3s;
   animation-name: slidein;
+  line-height: 60px;
 }
 
 .new_format {
@@ -66,7 +77,6 @@ h3 {
 }
 
 .second_header {
-  border: 1px solid red;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -75,6 +85,7 @@ h3 {
   animation-duration: 2s;
   animation-iteration-count: infinite;
   transform-origin: bottom;
+  line-height: 100px;
 }
 
 .bounce {
@@ -108,6 +119,7 @@ h3 {
   align-items: center;
   text-align: center;
   flex-direction: column;
+  line-height: 60px;
 }
 
 .time {
@@ -117,12 +129,29 @@ h3 {
 }
 
 .program {
-  font-family: 'Montserrat';
   padding-top: 714px;
   display: flex;
   justify-content: center;
   align-items: center;
-  text-align: center;
+  flex-direction: row;
+}
+
+.program_1 {
+  font-family: 'Montserrat';
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: left;
+  flex-direction: column;
+}
+
+.program_2 {
+  padding-left: 50px;
+  font-family: 'Montserrat';
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  text-align: left;
   flex-direction: column;
 }
 
@@ -279,12 +308,12 @@ h3 {
   align-items: center;*/
 }
 
-footer {
-  width: 1108px;
-  height: 410px;
-  position: absolute;
-  left: 264px;
-  top: 3355px;
+.program {
+
+}
+
+.footer {
+
 }
 
 
@@ -521,297 +550,4 @@ footer {
     100% {
         transform: translate(15px);
     }
-}
-
-@media (max-width: 768px) {
-
-  h1 {
-    font-size: 45px;
-  }
-
-  h2 {
-    font-size: 32px;
-  }
-
-  h3 {
-    font-size: 25px;
-  }
-
-  .first_header {
-    white-space: pre-line;
-  }
-
-  .cricket {
-    width: 124px;
-    height: 50px;
-    position: absolute;
-    top: 5px;
-    left: 25px;
-  }
-
-  .cricket_2 {
-    width: 166px;
-    height: 67px;
-  }
-
-  .glowworm_big {
-    opacity: 1;
-    width: 133px;
-    height: 133px;
-  }
-
-  .glowworm_small {
-    opacity: 1;
-    width: 60px;
-    height: 60px;
-  }
-
-  .glowworm {
-    left: 300px;
-  }
-
-  .glowworm_2 {
-    left: 776px;
-    top: 30px;
-  }
-
-  .glowworm_3 {
-    left: 218px;
-    top: 449px;
-  }
-
-  .glowworm_4 {
-    left: 508px;
-    top: 553px;
-  }
-
-  .glowworm_5 {
-    left: 864px;
-    top: 420px;
-  }
-
-  .glowworm_6 {
-    left: 470px;
-    top: 872px;
-  }
-
-  .glowworm_7 {
-    left: 601px;
-    top: 736px;
-  }
-
-  .glowworm_8 {
-    left: 513px;
-    top: 1320px;
-  }
-
-  .glowworm_9 {
-    left: 746px;
-    top: 1461px;
-  }
-
-  .glowworm_10 {
-    left: 427px;
-    top: 1531px;
-  }
-
-  .glowworm_11 {
-    left: 218px;
-    top: 1938px;
-  }
-
-  .glowworm_12 {
-    left: 785px;
-    top: 2021px;
-  }
-
-  .glowworm_13 {
-    left: 235px;
-    top: 2227px;
-  }
-
-  .glowworm_14 {
-    left: 808px;
-    top: 2267px;
-  }
-
-  .glowworm_15 {
-    left: 200px;
-    top: 2724px;
-  }
-
-  .glowworm_16 {
-    left: 613px;
-    top: 2856px;
-  }
-
-  .ogonek {
-    width: 231px;
-    height: 58px;
-  }
-
-  .logo {
-    width: 113px;
-    height: 47px;
-
-  }
-
-  .content {
-    background-size: 95px 1220px;
-    background-position-x: -17px;
-  }
-
-  .footer {
-    width: 598px;
-    height: 285px;
-    position: absolute;
-    left: 163px;
-    top: 2787px;
-  }
-
-}
-
-@media (max-width: 375px) {
-
-  h1 {
-    font-size: 28px;
-  }
-
-  h2 {
-    font-size: 20px;
-  }
-
-  h3 {
-    font-size: 15px;
-  }
-
-  .first_header {
-    white-space: pre-line;
-  }
-
-  .cricket {
-    width: 99px;
-    height: 40px;
-    position: absolute;
-    top: 5px;
-    left: 25px;
-  }
-
-  .cricket_2 {
-    width: 133px;
-    height: 54px;
-  }
-
-  .glowworm_big {
-    display: none;
-  }
-
-  .glowworm_small {
-    opacity: 1;
-    width: 60px;
-    height: 60px;
-  }
-
-  .glowworm {
-    left: 120px;
-    top: 35px;
-  }
-
-  .glowworm_2 {
-  display: none;
-  }
-
-  .glowworm_3 {
-    left: 264px;
-    top: 80px;
-  }
-
-  .glowworm_4 {
-    left: 245px;
-    top: 425px;
-  }
-
-  .glowworm_5 {
-    left: 120px;
-    top: 320px;
-  }
-
-  .glowworm_6 {
-    left: 270px;
-    top: 672px;
-  }
-
-  .glowworm_7 {
-    left: 401px;
-    top: 536px;
-  }
-
-  .glowworm_8 {
-    left: 313px;
-    top: 1120px;
-  }
-
-  .glowworm_9 {
-    left: 546px;
-    top: 1261px;
-  }
-
-  .glowworm_10 {
-    left: 227px;
-    top: 1331px;
-  }
-
-  .glowworm_11 {
-    left: 18px;
-    top: 1738px;
-  }
-
-  .glowworm_12 {
-    left: 585px;
-    top: 1821px;
-  }
-
-  .glowworm_13 {
-    left: 125px;
-    top: 2027px;
-  }
-
-  .glowworm_14 {
-    left: 608px;
-    top: 2067px;
-  }
-
-  .glowworm_15 {
-    display: none;
-  }
-
-  .glowworm_16 {
-    left: 413px;
-    top: 2656px;
-  }
-
-  .ogonek {
-    width: 231px;
-    height: 58px;
-  }
-
-  .logo {
-    width: 113px;
-    height: 47px;
-
-  }
-
-  .content {
-    background-size: 95px 1220px;
-    background-position-x: -18px;
-  }
-
-  .footer {
-    width: 598px;
-    height: 285px;
-    position: absolute;
-    left: 163px;
-    top: 2787px;
-  }
-
 }
