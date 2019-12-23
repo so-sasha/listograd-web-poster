@@ -613,9 +613,8 @@ h3 {
   }
 
   .program {
-    /* position: absolute;
-    left: 312px;
-    top: 500px; */
+    padding-top: 436px;
+    padding-left: 100px;
   }
 
   .cricket {
@@ -729,6 +728,7 @@ h3 {
     width: 206px;
     height: 85px;
     position: absolute;
+    padding-left: 350px;
   }
 
   /* .footer {
@@ -757,10 +757,34 @@ h3 {
   }
 
   .first_header {
+    padding-left: 75px;
+    line-height: 39px;
+  }
+
+  .new_format {
+    padding-top: 200px;
+  }
+
+  .second_header {
+    padding-left: 65px;
+    padding-top: 200px;
+  }
+
+  .ogonek {
+    margin-top: -30px;
+    width: 231px;
+    height: 58px;
+  }
+
+  .party {
   }
 
   .third_header {
-    position: absolute;
+    padding-left: 75px;
+  }
+
+  .program {
+    padding-top: 200px;
   }
 
   .cricket {
@@ -864,15 +888,10 @@ h3 {
     top: 2656px;
   }
 
-  .ogonek {
-    width: 231px;
-    height: 58px;
-  }
-
   .logo {
     width: 113px;
     height: 47px;
-
+    padding-top: 200px;
   }
 
   /* .content {
