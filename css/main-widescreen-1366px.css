@@ -26,9 +26,14 @@ body {
 }
 
 .tree_right {
-  position: absolute;
+  background: url("../img/tree_right.svg") repeat-y;
+  background-position: right;
+  overflow-x: hidden;
+  position: relative;
+  width: 100%;
+  /* position: absolute;
   right: 0;
-  width: 186.73px;
+  width: 186.73px; */
 }
 
 /*.scenery {
@@ -207,7 +212,7 @@ h3 {
 
 .glowworm_4 {
   left: 608px;
-  top: 653px;
+  top: 640px;
 }
 
 .glowworm_5 {
@@ -222,7 +227,7 @@ h3 {
 
 .glowworm_7 {
   left: 801px;
-  top: 836px;
+  top: 936px;
 }
 
 .glowworm_8 {
@@ -237,7 +242,7 @@ h3 {
 
 .glowworm_10 {
   left: 527px;
-  top: 1631px;
+  top: 1800px;
 }
 
 .glowworm_11 {
