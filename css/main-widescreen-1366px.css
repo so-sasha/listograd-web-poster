@@ -29,6 +29,7 @@ body {
   overflow: hidden;
   position: relative;
   width: 100%;
+  z-index: -2;
 }
 
 h1 {
@@ -44,7 +45,7 @@ h3 {
 }
 
 .header-title {
-  min-height: 600px;
+  z-index: -1;
   overflow: hidden;
   position: relative;
 }
@@ -122,6 +123,7 @@ h3 {
 }
 
 .program {
+  margin-left: -200px;
   padding-top: 714px;
   display: flex;
   justify-content: center;
@@ -143,6 +145,7 @@ h3 {
 }
 
 .fireflies {
+  z-index: 1;
   border-radius: 50%;
   filter: blur(15px);
   background: #DDCD4A;
@@ -537,6 +540,7 @@ h3 {
   }
 
   .header-title {
+    z-index: -1;
     min-height: 0;
   }
 
