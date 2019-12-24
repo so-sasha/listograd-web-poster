@@ -126,7 +126,7 @@ h3 {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: row;
+  /* flex-direction: row; */
 }
 
 .program_1 {
@@ -139,14 +139,8 @@ h3 {
 }
 
 .program_2 {
-  padding-left: 50px;
-  /* margin-top: -350px; */
+  margin-top: -390px;
   font-family: 'Montserrat';
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  text-align: left;
-  flex-direction: column;
 }
 
 .fireflies {
@@ -293,7 +287,7 @@ h3 {
   width: 206px;
   height: 85px;
   padding-top: 298px;
-  padding-left: 700px;
+  padding-left: 400px;
 }
 
 .footer {
@@ -601,6 +595,14 @@ h3 {
     padding-left: 100px;
   }
 
+  .program_1 {
+    margin-top: -387px;
+  }
+
+  .program_2 {
+    padding-left: 10px;
+  }
+
   .glowworm_small {
     width: 54px;
     height: 54px;
@@ -772,8 +774,8 @@ h3 {
   }
 
   .program {
-    padding-left: 50px;
-    padding-top: 50px;
+    padding-left: 80px;
+    padding-top: 300px;
     height: 300px;
   }
 
@@ -881,7 +883,7 @@ h3 {
   .logo {
     width: 113px;
     height: 47px;
-    padding-top: 100px;
+    padding-top: 200px;
     padding-left: 200px;
   }
 
