@@ -10,7 +10,7 @@ body {
   font-family: 'Comfortaa';
   background: linear-gradient(#f39669, #232d5d);
   color: white;
-  margin: 0;
+  margin: -2px;
   overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -24,12 +24,13 @@ body {
 }
 
 .tree_right {
+  border: 1px solid red;
   background: url("../img/tree_right.svg") repeat-y;
   background-position: right;
   overflow: hidden;
   position: relative;
   width: 100%;
-  z-index: -2;
+  margin-top: -10px;
 }
 
 h1 {
@@ -45,7 +46,8 @@ h3 {
 }
 
 .header-title {
-  z-index: -1;
+  margin-top: 269px;
+  z-index: 1;
   overflow: hidden;
   position: relative;
 }
@@ -61,7 +63,6 @@ h3 {
 }
 
 .new_format {
-  padding-top: 269px;
   z-index: 1;
   position: relative;
   overflow: hidden;
@@ -263,10 +264,11 @@ h3 {
 .cricket {
   width: 155px;
   height: 63px;
-  transform: translate(0, 5em) rotate(30deg);
+  position: fixed;
   left: 100px;
-  position: sticky;
+  top: 2em;
   min-height: 2em;
+  transform: translate(0, 5em) rotate(30deg);
 }
 
 .cricket_2 {
@@ -283,7 +285,7 @@ h3 {
   width: 206px;
   height: 85px;
   padding-top: 298px;
-  padding-left: 400px;
+  padding-left: 500px;
 }
 
 
@@ -573,7 +575,7 @@ h3 {
 
   .program {
     padding-top: 436px;
-    padding-left: 100px;
+    padding-left: 300px;
   }
 
   .program_1 {
@@ -592,7 +594,7 @@ h3 {
   .cricket {
     width: 124px;
     height: 50px;
-    position: absolute;
+    position: fixed;
     top: 5px;
     left: 25px;
   }
@@ -700,7 +702,7 @@ h3 {
     width: 206px;
     height: 85px;
     position: absolute;
-    padding-left: 350px;
+    padding-left: 300px;
   }
 
 }
@@ -755,7 +757,7 @@ h3 {
   }
 
   .program {
-    padding-left: 80px;
+    padding-left: 300px;
     padding-top: 300px;
     height: 300px;
   }
@@ -763,7 +765,7 @@ h3 {
   .cricket {
     width: 99px;
     height: 40px;
-    position: absolute;
+    position: fixed;
     top: 5px;
     left: 25px;
   }
@@ -865,7 +867,7 @@ h3 {
     width: 113px;
     height: 47px;
     padding-top: 200px;
-    padding-left: 200px;
+    padding-left: 150px;
   }
 
   .footer {
